@@ -4,7 +4,7 @@
   <Import Project="..\common.props" />
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <VersionPrefix>3.0.1</VersionPrefix>
     <FileVersion>3.0.1.0</FileVersion>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -20,11 +20,12 @@
   </ItemGroup>
 
   <PropertyGroup>
-    <PackageReleaseNotes>This release fixes a bug that caused a validation exception on some valid CSP scheme sources containing the characters '+.-'.</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated to NET 5 by jbrech</PackageReleaseNotes>
     <Description>This library provides shared functionality for the NWebsec ASP.NET Core security libraries.</Description>
     <PackageId>NWebsec.AspNetCore.Core</PackageId>
     <PackageTags>nwebsec aspnetcore security</PackageTags>
     <Copyright>Copyright © 2016 - 2020</Copyright>
+    <Version>5.0.0</Version>
   </PropertyGroup>
   
 </Project>
